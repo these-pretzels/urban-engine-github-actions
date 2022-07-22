@@ -3,8 +3,8 @@ name: startMagent2DevEC2
 # This code is set up only to run when you click action in the repository, If you require to run on a push or cron edit below
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
-  # push:
-  #  branches: [ main ]
+   push:
+    branches: [ main ]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
